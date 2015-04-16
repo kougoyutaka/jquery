@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="shift-jis">
+<script src="jquery.js"></script>
+
+<style>
+#div1{ 
+	background:pink;
+	position:absolute;
+	top:0;
+	left:0;
+	pading:50px;
+}
+	
+</style>
+
+</head>
+
+<body>
+<div id="div1">非表示</div>
+</body>
+
+<script>
+$(function(){
+	$('#div1').animate({
+	top: 200,//y
+	left:400//x
+}, 1000);
+});
+
+$(function(){
+	$('#div1').animate({
+	top: -500,//y
+	left:-400//x
+}, 2000);
+});
+</script>
+</html>

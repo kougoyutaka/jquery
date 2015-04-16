@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="shift-jis">
+<script src="jquery.js">
+</script>
+<style>
+#div1{ background:pink; display:none;}
+#div2{ background:yellow; display:block;}
+//ブロックで表示して
+</style>
+</head>
+<body>
+<div id="div1">非表示</div>
+<div id="div2">表示</div> 
+</body>
+
+<script>
+$(function(){
+	$("#div1").fadeIn();
+	//slow 600 fast 200
+	$("#div2").fadeOut(1000, function(){
+		alert('フェードイン');
+	//フェードイン
+		});
+});
+</script>
+</html>

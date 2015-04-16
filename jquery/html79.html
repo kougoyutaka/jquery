@@ -1,0 +1,22 @@
+<head>
+<script src="jquery.js">
+</script>
+<style>
+#div1{ display:none}
+#div2{ display:block}
+//ブロックで表示して
+</style>
+</head>
+<body>
+<div id="div1">非表示</div>
+<div id="div2">表示</div> 
+</body>
+
+<script>
+$(function(){
+	$("#div1").show();
+	$("#div2").hide(2000);
+	$("#div2").show(2000);
+	//消えたり出てきたり
+});
+</script>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="shift-jis">
+<script src="jquery.js"></script>
+
+<style>
+#div1{
+	background:pink;
+	pading:20px;
+</style>
+
+</head>
+
+<body>
+<div id="div1">非表示</div>
+</body>
+
+<script>
+$(function(){
+	$('#div1').click(function(){
+	$('#div1').text('クリックしました');
+});
+});
+//クリックが使える
+</script>
+</html>

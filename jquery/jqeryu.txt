@@ -1,0 +1,17 @@
+$()┴╫┌╘┌П▌Ф┌а┌д┌╜┌И
+┌Ё┌Г┌иjquery╣лч╪ч╙╦д┌и┌╥┌И
+$function(){}
+┐y│[┐W┌л⌠г┌щ█·┌щ┌╙┼╝≈╧┌╣┌╫┌Г┴╫┌╘┌╥┌И
+<script src=".js"></script>
+<link rel="staylesheet" type="text/css" href="style.css">
+console.log
+
+<style>//css┌Ф┌Х┌Ю▒│┌╒
+#somediv p(color: red) 
+.somediv p(oclor:blue)
+<div i= "somediv" class="somediv">
+//id┌╙┌м┌Б┌╒
+
+
+
+</style>

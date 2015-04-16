@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="shift-jis">
+<script src="jquery.js"></script>
+
+<style>
+.active{
+	border:3px solid green;
+}
+</style>
+
+</head>
+
+<body>
+<div class="1">cat</div>
+<div class="1">dog</div>
+<div class="1">god</div>
+</body>
+
+<script>
+$(function(){
+	$('.1').each(function(){
+			var name = $(this).text();
+			alert(name);
+	});
+});
+</script>
+</html>

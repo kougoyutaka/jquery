@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="shift-jis">
+<script src="jquery.js"></script>
+
+<style>
+#basket{background:brown; padding:10px;}
+#apple{background:red; margin:10px;}
+#banana{background:yellow; margin:10px;}
+#orange{background:orange; margin:10px;}
+
+</style>
+
+</head>
+
+<body>
+<div id="basket">非表示</div>
+<div id="apple">非表示</div>
+<div id="banana">非表示</div>
+<div id="orange">非表示</div>
+</body>
+
+<script>
+$(function(){
+var basket = $('#basket');
+var apple = $('#apple');
+var banana = $('#banana');
+var orange = $('#orange');
+basket.appendTo(apple);
+basket.appendTo(banana);
+basket.appendTo(orange);
+
+});
+//append.append(aaa)
+//A付け加える()を
+</script>
+</html>

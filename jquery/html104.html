@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="shift-jis">
+<script src="jquery.js"></script>
+
+<style>
+div{
+	margin:0 0 10px;
+	padding:10px;
+	}
+.box{
+	border:3px solid #000;
+}
+.alert{	
+	border-color:#f00;
+}
+</style>
+
+</head>
+
+<body>
+<div id="div1" class="box1">非表示</div>
+<div id="div2" class="box">非表示</div>
+<div id="div3" class="box alert">非表示</div>
+</body>
+
+<script>
+$(function(){
+	$('#div1').addClass('box');
+	$('#div2').removeClass('box');
+	$('#div3').removeClass('alert');
+});
+
+</script>
+</html>

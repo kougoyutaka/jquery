@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="shift-jis">
+<script src="jquery.js"></script>
+
+<style>
+#div1{ background:pink;   display:none;  }
+#div2{ background:yellow; display:block; }
+</style>
+
+</head>
+
+<body>
+<div id="div1">非表示</div>
+<div id="div2">表示</div>
+</body>
+
+<script>
+$(function(){
+	$('#div1').slideDown();
+	$('#div2').slideUp();
+});
+</script>
+</html>
